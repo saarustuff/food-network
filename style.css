@@ -1,0 +1,47 @@
+body{
+    font-family: Montserrat;
+    margin: 0;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.top-section{
+    padding-left: 5%;
+    width: 50%;
+}
+.middle-section{
+    text-align: left;
+    padding-left: 5%;
+    width: 50%;
+}
+.gap{
+    padding-top: 5%;
+}
+.top-section img{
+    padding-top: 10%;
+    width: 80%;
+}
+h1{ color: rgb(102, 99, 99);
+    font-size: 60px;
+    font: weight 700px;
+}
+p{
+    color: gray;
+}
+.skip-color{
+    color: #f8593d;
+}
+.order-link{
+    background-image: linear-gradient(to left, #fa3917, #ffc16f);
+    color: white;
+    text-decoration: none;
+    padding: 17px 40px;
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: 3px 3px 20px 3px  #f3b992;
+}
+.middle-bg{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
