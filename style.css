@@ -4,7 +4,7 @@ body{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .top-section{
     padding-left: 5%;
@@ -12,8 +12,12 @@ body{
 }
 .middle-section{
     text-align: left;
-    padding-left: 5%;
+    padding-left: 10%;
     width: 50%;
+    padding-right: 5%;
+}
+.middle-section img{
+    width: 84%;
 }
 .gap{
     padding-top: 5%;
@@ -44,4 +48,6 @@ p{
 .middle-bg{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
